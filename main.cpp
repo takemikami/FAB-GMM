@@ -7,7 +7,7 @@ int main(int argc, char* argv[]) {
   }
   
   double delta = atof(argv[1]);
-  int numbet_of_state = (int)(1.0/delta);
+  int number_of_state = (int)(1.0/delta);
   string input_file = argv[2];
   string output_parameter_file = argv[3];
   string output_responsibility_file = argv[4];
